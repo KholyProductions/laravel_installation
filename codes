@@ -30,6 +30,5 @@ lessc public/css/site.less > public/css/site.css
 
 Important Commands:
 php artisan make:controller FormController
-php artisan make:migration products_table
-php artisan make:migration add_images_url_to_products_table --table=products
-php artisan make:model Products -m
+php artisan make:migration add_images_url_to_products_table --table=products   ->   (Add column to table)
+php artisan make:model Products -m   ->   (create model & table)
