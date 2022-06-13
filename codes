@@ -1,0 +1,37 @@
+Web Development:
+
+Steps installing Laravel:
+Download XAMPP
+Download Cmder
+Download node js
+Download composer php manager & install through setup.exe
+install laravel through these commands:
+composer global require laravel/installer
+laravel new example-app
+
+
+install Bootstap in laravel:
+composer require laravel/ui
+php artisan ui bootstrap
+npm install
+npm run dev
+npm run dev   (again)
+
+
+Instal SASS:
+npm install -g sass
+install Live Sass Compiler
+click on watch SASS from bottom right
+
+
+install Less:
+npm install -g less
+npm i less --save-dev
+lessc public/css/site.less > public/css/site.css 
+
+
+Important Commands:
+php artisan make:controller FormController
+php artisan make:migration products_table
+php artisan make:migration add_images_url_to_products_table --table=products
+php artisan make:model Products -m
